@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0eeeb;
+    color: #333;
+}
+header {
+    background-image: url('bg.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #251c07;
+    padding: 0.5rem 0;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #251c07;
+    color: #fff;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
