@@ -1,80 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jovie Bean</title>
-<link rel="stylesheet" href="styles.css">
-
-<div class="container">
-<h1>Joive Bean</h1>
-<p>your favorite coffee stop!</p>
-</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jovie Bean</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-<input type="checkbox" id="active">
-<label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-<div class="wrapper">
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#about-us" onclick="openSection('article1')">About Us</a></li>
-<li><a href="#types-of-sinks" onclick="openSection('article2')">Our Menu</a></li>
-<li><a href="#features" onclick="openSection('article3')">Our Staff</a></li>
-<li><a href="#">Contact Us</a></li>
-</ul>
-</div>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>JOVIE BEAN</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="accordion">
-<article id="about-us">
-<input id="article1" type="radio" name="articles">
-<label for="article1">
-<h2>About Our Sinks</h2>
-</label>
-<div>
-At Sinks R Us, we offer a wide variety of sinks to suit every need. From classic designs to modern styles, our sinks are made from high-quality materials and built to last.
-<img src="sink1.jpg" alt="sink1">
-</div>
-</article>
+    <section class="hero">
+        <h2>Welcome to Jovie Bean</h2>
+        <p>Your go-to spot for fresh coffee and a great atmosphere.</p>
+        <a href="#menu" class="cta-button">Explore Our Menu</a>
+    </section>
 
-<article id="types-of-sinks">
-<input id="article2" type="radio" name="articles">
-<label for="article2">
-<h2>Types of Sinks</h2>
-</label>
-<div>
-Explore our extensive range of sinks, including undermount, farmhouse, and vessel sinks. Each type comes with its own unique features and benefits to match your kitchen or bathroom design.
-<img src="sink2.jpg" alt="sink2">
-</div>
-</article>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Business Coffee Shop, we believe in delivering the finest coffee experience. Whether you're here for a quick espresso or a relaxed afternoon with friends, we've got you covered.</p>
+    </section>
 
-<article id="features">
-<input id="article3" type="radio" name="articles">
-<label for="article3">
-<h2>Features and Benefits</h2>
-</label>
-<div>
-Our sinks come with a range of features, including easy-to-clean surfaces, scratch resistance, and various styles to complement your decor. Learn more about what makes our sinks stand out.
-<img src="sink3.jpeg" alt="sink3">
-</div>
-</article>
-</div>
-</body>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Coffee</li>
+            <li>Espresso</li>
+            <li>Latte</li>
+            <li>Cappuccino</li>
+            <li>Pastries</li>
+        </ul>
+    </section>
 
-<footer>
-<p>@2024 Sink R Us</p>
-</footer>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to visit us or get in touch for more information!</p>
+        <p>Email: joviebean@businesscoffeeshop.com</p>
+        <p>Phone: 09189281617</p>
+    </section>
 
-<script>
-function openSection(articleId) {
-// Uncheck the menu to close it
-document.getElementById('active').checked = false;
-// Scroll to the article
-document.getElementById(articleId).scrollIntoView({ behavior: 'smooth' });
-// Activate the corresponding radio button to expand the content
-document.getElementById(articleId).checked = true;
-}
-</script>
-
+    <footer>
+        <p>&copy; 2025 Jovie Bean. All rights reserved.</p>
+    </footer>
 </body>
 </html>
