@@ -48,33 +48,23 @@
 	});
 
 
-	//Travel portfolio page
+	//Blogs page
 
-	$(".travel").on('click', function () {
-		$("body").addClass("travel-on");
+	$(".blogs").on('click', function () {
+		$("body").addClass("blogs-on");
 	});
-	$(".travel-close").on('click', function () {
-		$("body").removeClass("travel-on");
-	});
-
-
-	//Wildlife portfolio page
-
-	$(".wildlife").on('click', function () {
-		$("body").addClass("wildlife-on");
-	});
-	$(".wildlife-close").on('click', function () {
-		$("body").removeClass("wildlife-on");
+	$(".blogs-close").on('click', function () {
+		$("body").removeClass("blogs-on");
 	});
 
 
-	//Nature portfolio page
+	//Menu page
 
-	$(".nature").on('click', function () {
-		$("body").addClass("nature-on");
+	$(".menu").on('click', function () {
+		$("body").addClass("menu-on");
 	});
-	$(".nature-close").on('click', function () {
-		$("body").removeClass("nature-on");
+	$(".menu-close").on('click', function () {
+		$("body").removeClass("menu-on");
 	});
 
 })(jQuery);
