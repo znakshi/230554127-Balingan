@@ -163,11 +163,11 @@
 
  .about-text {
      position: absolute;
-   font-size: 30px;
+   font-size: 40px;
    line-height: 1;
-   opacity: 0.5;
+   opacity: 10;
    font-weight: 700;
-   color: #362c0a;
+   color: #f1efed;
    letter-spacing: 2px;
    top: 50%;
    left: 20px;
@@ -251,11 +251,11 @@
 
  .contact-text {
      position: absolute;
-   font-size: 30px;
+   font-size: 40px;
    line-height: 1;
-   opacity: 0.5;
+   opacity: 10;
    font-weight: 700;
-   color: #ffeba7;
+   color: f1efed;
    letter-spacing: 2px;
    top: 50%;
    right: 20px;
